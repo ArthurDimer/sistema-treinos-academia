@@ -1,4 +1,4 @@
-Sistema de Registro de Treinos e Progressos em Academia
+# *Sistema de Registro de Treinos e Progressos em Academia*
 
 Aplicação web autoral desenvolvida para a disciplina **Técnico Profissional – Informática para Internet** (Senac), com o objetivo de demonstrar a integração completa entre **Banco de Dados (MySQL) → Backend (PHP) → Frontend (HTML + CSS + JS)**.
 
