@@ -17,16 +17,19 @@ Aplicar na prática os conceitos de modelagem de dados, CRUD com SQL, criação 
 
 ## Estrutura de pastas
 
-sistema-treinos/
-├backend/
-│ ├config.php       
-│ └treinos.php      
-├frontend/
-│ ├index.html      
-│ ├style.css       
-│ └app.js          
-└database/
-  └ schema.sql       
+*sistema-treinos/*
+
+backend/
+- config.php       
+- treinos.php      
+
+frontend/
+- index.html      
+- style.css       
+- app.js          
+
+database/
+- schema.sql       
 
 Tabela única treinos, contendo os dados de cada sessão de exercício registrada:
 
