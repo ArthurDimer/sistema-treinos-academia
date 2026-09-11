@@ -26,7 +26,11 @@ backend/
 frontend/
 - index.html      
 - style.css       
-- app.js          
+- app.js   
+-ImagensTreino/
+- *AcademiaAestetic.jpg*
+- *Direita.jpg*
+- *Esquerda.jpg*       
 
 database/
 - schema.sql       
@@ -69,6 +73,16 @@ Como executar o projeto (XAMPP)
 2. Abra o XAMPP Control Panel e inicie os módulos Apache e MySQL.
 3. Acesse http://localhost/phpmyadmin, abra a aba SQL e execute o conteúdo de database/schema.sql. Isso cria o banco treinos_academia, a tabela treinos e insere dados de exemplo.
 4. No navegador, acesse: http://localhost/sistema-treinos/frontend/index.html
+
+## Prints
+<img width="1840" height="932" alt="Captura de tela 2026-09-10 234221" src="https://github.com/user-attachments/assets/e2784dd5-461e-47b5-95dc-ea020ef5cfed" />
+-Tela Inicial
+<img width="1842" height="925" alt="image" src="https://github.com/user-attachments/assets/65aa82e1-c69b-42dd-bb70-1b1af2c1ced4" />
+-Criação de novo exercício para o treino
+<img width="1832" height="877" alt="image" src="https://github.com/user-attachments/assets/28a09052-96aa-460b-a264-a796a47ddea1" />
+-Resultado da criação do exercício
+<img width="1840" height="927" alt="image" src="https://github.com/user-attachments/assets/7e0f45e5-92d2-4d21-93b6-10dcae75d3ab" />
+-Pesquisa e procura de exercícios do catalogo.
 
 ## Autor
 
