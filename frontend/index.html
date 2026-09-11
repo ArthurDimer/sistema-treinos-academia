@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meus Treinos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Meus Treinos</h1>
+</header>
+
+<div class="layout">
+  <aside class="lateral">
+    <img src="ImagensTreino/Esquerda.jpg" alt="Academia">
+  </aside>
+
+  <main>
+  <div class="barra">
+    <input type="text" id="busca" placeholder="Buscar exercício...">
+    <button id="btnNovo">+ Novo Treino</button>
+  </div>
+
+  <div id="lista"></div>
+  </main>
+
+  <aside class="lateral">
+    <img src="ImagensTreino/Direita.jpg" alt="Academia2">
+  </aside>
+</div>
+
+<div id="modal" class="oculto">
+  <form id="form">
+    <input type="hidden" id="treinoId">
+    <label>Exercício</label>
+    <input type="text" id="exercicio" required>
+
+    <label>Grupo Muscular</label>
+    <input type="text" id="grupo" required>
+
+    <label>Data</label>
+    <input type="date" id="data" required>
+
+    <label>Séries</label>
+    <input type="number" id="series" required>
+
+    <label>Repetições</label>
+    <input type="number" id="repeticoes" required>
+
+    <label>Carga (kg)</label>
+    <input type="number" id="carga" step="0.5">
+
+    <label>Observações</label>
+    <textarea id="observacoes"></textarea>
+
+    <button type="submit">Salvar</button>
+    <button type="button" id="btnCancelar">Cancelar</button>
+  </form>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

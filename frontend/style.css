@@ -1,0 +1,37 @@
+body { font-family: Arial, sans-serif; background: #000e1d; margin: 0; }
+header { background: #2e434f; color: white; padding: 20px; text-align: center; }
+main { max-width: 800px; margin: 20px auto; padding: 0 16px; }
+.barra { display: flex; gap: 10px; margin-bottom: 16px; }
+#busca { flex: 1; padding: 8px; }
+button { padding: 8px 14px; cursor: pointer; }
+#lista { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.card { background: white; border-radius: 8px; padding: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.card h3 { color: #0a3956; }
+#modal { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+#modal.oculto { display: none; }
+#form { background: white; padding: 20px; border-radius: 8px; width: 300px; }
+#form label { display: block; margin-top: 8px; font-size: 0.85rem; }
+#form input, #form textarea { width: 100%; padding: 6px; margin-top: 2px; }
+@media (max-width: 480px) { .barra { flex-direction: column; } }
+
+.layout {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1600px;
+    margin: 50px auto 0 auto;
+    padding: 0 20px;
+}
+
+.lateral {
+    width: 350px;      /* largura da lateral */
+    min-height: 80vh;  /* altura grande */
+}
+
+.lateral img {
+    width: 100%;
+    height: 80vh;      /* mesma altura da lateral */
+    object-fit: cover; /* preenche sem distorcer */
+    border-radius: 12px;
+    display: block;
+}
