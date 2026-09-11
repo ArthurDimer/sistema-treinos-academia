@@ -1,4 +1,4 @@
-const API_URL = "http://localhost/sistema-treinos/backend/treinos.php";
+const API_URL = "http://localhost:8080/sistema-treinos-academia/backend/treinos.php";
 
 const lista = document.getElementById("lista");
 const form = document.getElementById("form");
@@ -38,7 +38,7 @@ document.getElementById("btnCancelar").addEventListener("click", () => {
 async function editar(id) {
   const resposta = await fetch(API_URL);
   const treinos = await resposta.json();
-  const t = treinos.find(x => x.id === id);
+  const t = treinos.find(x => x.id == id);
 
   document.getElementById("treinoId").value = t.id;
   document.getElementById("exercicio").value = t.exercicio;
